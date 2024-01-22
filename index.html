@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1><strong>Introdução ao HTML na Prática</strong></h1>
+    <hr/>
+    <h2 id="inicio" style="font-family:comic sans ms">Índice</h2>
+    <ol>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre tags</a></li>
+        <li><a href="#atributos">Atributos das tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ol>
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+    <p> A estrutura básica do HTML é composta por 2 partes, a cabeça e o corpo do texto. A cabeça (head) fica no início do texto e serve para nomear o título (title) daquela página e mostrar informações ao navegador.</p>
+    <p>A estrutura do corpo (body) armazena o texto que é apresentado ao usuário, contendo diversos comandos e funçoes para uma melhor navegabilidade do leitor.</p>
+    <p>Exemplo:</p>
+    <p>< head ></p>
+        <p>< title > título < /title ></p>
+    <p>< /head ></p>
+    <p>< body ></p>
+    <p>< /body ></p>
+    <h2 id="tags">Falando sobre tags</h2>
+    <p>Há diversos tipos de estruturas (tags) em HTML. Elas aparecem com o seguinte aspecto < > e < />, indicando seu ínicio e fim.</p>
+    <p>Há tags que transformam seu texto em <i>itálico</i>; que implementam uma entrada de texto em seu site (ou até mesmo um contador):</p>
+    <input type="text"/>
+    <input type="number"/>
+    <p>que implementam uma imagem em seu texto:</p>
+    <img src="https://www.otempo.com.br/image/contentid/policy:1.2850734:1681563841/image-O-que-aconteceu-a-Gandalf-apos-O-Senhor-dos-Aneis.jpg?f=3x2&w=1224" width="450">
+    <p>que <small>reduzem o tamanho</small> da sua fonte, que atribuem funções de <sub>subscrito</sub> e <sup>sobrescrito</sup> e tantas outras!</p>
+    <h2 id="atributos">Atributos das tags</h2>
+    <p>As tags podem ser modificadas para diversos tipos. A tag input type pode receber informações via texto, número, cor, etc. Já a tag img pode sofrer ajustes em seu tamanho ou escala, se adaptando à escolha do editor.</p>
+    <p>Além disso há outras tags bem legais que permitem várias funcionalidades. Você quer mudar a cor do seu texto?</p>
+    <p style="color: aquamarine;">Sem problema, amigo.</p>
+    <p>E que tal deixar uma mensagem de orientação?</p>
+    <p>Também é <abbr title="HTML é muito bom">possível</abbr></p>
+    <h2 id="textos">Textos</h2>
+    <h3>Textos</h3>
+    <h4>Textos</h4>
+    <h5>Textos</h5>
+    <h6>Textos</h6>
+    <p>Viu o efeito legal aí em cima? Essa é uma funcionalidade do HTML para a formatação de títulos. Há outras opções que ajudam a enriquecer o texto em seu site, como citações e <mark>marcações</mark> (ba dum tss).</p>
+    <blockquote>Ser ou não ser? Eis um exemplo de citação.</blockquote>
+    <p>Também é possível <u>sublinhar um texto</u> e deletar alguma frase <del>erada</del> errada.</p>
+    <h2 id="listas">Listas ordenadas e não ordenadas</h2>
+    <p>As listas em HTML se dividem em dois tipos: ordenadas e não ordenadas. A seguir está um demonstrativo de ambas e suas diferenças.</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>
+            Item 4
+            <ol>
+                <li>Item 4.1</li>
+                <li>Item 4.2</li>
+            </ol>
+        </li>
+    </ol>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h2 id="links">Links </h2> 
+    <sub><a href="#inicio">(Índice)</a></sub>
+    <p>Também é possível criar links para outros sites, com ou sem redirecionamento. Um redirecionamento para sua própria página é recomendável para informações sobre sua empresa ou blog. Sempre use o bom senso no redirecionamento de sites.</p>
+    <p>Nesse exemplo, o <a href="https://www.amazon.com.br" target="_self">redirecionamento</a> para o site da Amazon é feito para a mesma aba.</p>
+    <p>Nesse outro exemplo, o <a href="https://www.amazon.com.br" target="_blank">redirecionamento</a> para o site da Amazon é feito em uma nova aba.</p>
+</body>
+</html>
